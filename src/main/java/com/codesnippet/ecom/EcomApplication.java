@@ -13,6 +13,7 @@ public class EcomApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext applicationContext = SpringApplication.run(EcomApplication.class, args);
 		System.out.println("context created successfully");
+		System.out.println("doing second change for commit in github");
 		//applicationContext.close();
 	}
 
